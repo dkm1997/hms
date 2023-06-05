@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[execution started]]>
+    </line>
+    <line>
+      <![CDATA[execution completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-02T17:26:26 IST" name="Default suite" finished-at="2023-06-02T17:26:48 IST" duration-ms="21917">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T17:26:26 IST" name="Default test" finished-at="2023-06-02T17:26:48 IST" duration-ms="21917">
+      <class name="com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient">
+        <test-method is-config="true" signature="executionStart()[pri:0, instance:com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient@5e4bd84a]" started-at="2023-06-02T17:26:26 IST" name="executionStart" finished-at="2023-06-02T17:26:26 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionStart -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient@5e4bd84a]" started-at="2023-06-02T17:26:26 IST" name="setup" finished-at="2023-06-02T17:26:29 IST" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DoctorLogin()[pri:0, instance:com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient@5e4bd84a]" started-at="2023-06-02T17:26:29 IST" name="DoctorLogin" finished-at="2023-06-02T17:26:31 IST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoctorLogin -->
+        <test-method signature="AddAppointment()[pri:0, instance:com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient@5e4bd84a]" started-at="2023-06-02T17:26:31 IST" name="AddAppointment" finished-at="2023-06-02T17:26:46 IST" depends-on-methods="com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient.DoctorLogin" duration-ms="15487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAppointment -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient@5e4bd84a]" started-at="2023-06-02T17:26:46 IST" name="teardown" finished-at="2023-06-02T17:26:48 IST" duration-ms="2191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="executionComplete()[pri:0, instance:com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient@5e4bd84a]" started-at="2023-06-02T17:26:48 IST" name="executionComplete" finished-at="2023-06-02T17:26:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[execution completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionComplete -->
+      </class> <!-- com.mp.HospitalManagementSystem.Tc1_Doc_ProvideAppointment_to_patient -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
