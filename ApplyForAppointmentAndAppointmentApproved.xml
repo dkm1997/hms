@@ -5,5 +5,5 @@
     <classes>
       <class name="com.mp.HospitalManagementSystem.HospitalManagementSystem"/>
     </classes>
-  </test> <!-- Test banda-->
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
